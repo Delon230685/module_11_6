@@ -1,5 +1,3 @@
-import inspect
-
 def introspection_info(obj):
     obj_type = type(obj).__name__
     attributes = dir(obj)
